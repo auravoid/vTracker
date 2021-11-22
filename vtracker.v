@@ -7,7 +7,7 @@ import os
 import toml
 
 const (
-        config_location = '$os.home_dir()\\.config\\vtracker.toml'
+        config_location = '$os.home_dir()/.config/vtracker.toml'
 )
 
 fn main() {
